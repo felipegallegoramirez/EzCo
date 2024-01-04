@@ -833,3 +833,7 @@ margin: 5px;
     }
   }
 
+  .oculto{
+    visibility: hidden;
+    height: 0px;
+  }
