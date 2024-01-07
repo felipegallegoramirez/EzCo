@@ -45,6 +45,8 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 92.25px;
     grid-gap: 20px;
+    border-radius: 20px;
+    
 }
 
 .grid__title{
@@ -63,6 +65,8 @@ body{
     height: 369px;
     box-sizing: border-box;
     margin: 0px;
+    box-shadow: -28px 15px 47px -13px rgba(0,0,0,0.3);
+    padding: 20px;
 }
 
 .grid__card>img{

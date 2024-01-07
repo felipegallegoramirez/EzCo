@@ -34,16 +34,110 @@ body{
     text-decoration: none;
 }
 
-.grid__title{
-    font-weight: bolder;
-}
 
 .grid{
-    width: 1000px;
+    width: 1400px;
     margin: 80px auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 92.25px;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 }
 
+.grid__card{
+    background-color: var(--black);
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 16px;
+    box-shadow: -28px 15px 47px -13px rgba(0,0,0,0.3);
+}
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.grid__card p{
+    margin: 0px;
+}
+
+.grid__card img{
+    width:100%;
+}
+
+.grid__card_title{
+    margin:20px 0px;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+button{
+    margin: 30px 0px 0px 0px;
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: var(--pruple);
+    border: none;
+
+}
+button>a{
+    color: white;
+    text-decoration: none;
+} 
+
+button:hover{    
+    outline:2px solid var(--white);
+}
+
+.ia>h1{
+    margin: 80px;
+    font-size: 40px;
+}
+
+
+.post{
+    padding: 80px;
+}
+
+.card{
+    margin: 40px;
+    display: flex;
+    align-items: flex-start;
+    box-shadow: -28px 15px 47px -13px rgba(0,0,0,0.6);
+    border-radius: 20px ;
+    overflow: hidden;
+    padding: 0px;
+    height: 250px;
+}
+
+.card>div>img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+.card__text{
+    margin: 0px 30px;
+
+}
+.card__text--principal{
+    height: 200px;
+    overflow: hidden;
+}
+.card__button{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+.card__button>button{
+    margin: 0px;
+}
