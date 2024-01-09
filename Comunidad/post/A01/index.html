@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Last-Modified" content="0" />
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="Desarrollo de sotfware a la medida en medellin, crea tu pagina web con nosotros, medellin, envigado, itagui, sabaneta, estrella, bello, poblado, laureles.Ezco, Ezco.com.co"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://ezco.com.co/sources/EzcoLogo.png"
+    />
+    <meta property="og:site_name" content="Ezco.com.co" />
+    <meta property="og:title" content="Desarrollo de sotfware a la medida" />
+    <meta
+      property="og:description"
+      content="Los mejores servicios para hacer tu empresa crecer con tecnologia"
+    />
+    <meta
+      property="og:image"
+      content="https://ezco.com.co/sources/EzcoLogo.png"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:url" content="https://ezco.com.co/" />
+
+    <title>EZCO</title>
+
+    <link rel="icon" type="image/jpg" href="./sources/EzcoLogo.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../../../css/normalize.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <head>
+      <div class="nav">
+        <div>
+          <img src="../../../sources/EzcoLogo.svg" />
+        </div>
+        <div>
+          <ul>
+            <li><a href="../../../index.html">Home</a></li>
+            <li><a href="../../../Proyectos/">Proyectos</a></li>
+            <li><a href="../../">Comunidad</a></li>
+          </ul>
+        </div>
+      </div>
+    </head>
+
+    <main>
+      <div class="header">
+        <h1>¿La IA General está Cerca?</h1>
+        <p>Enero 2024</p>
+      </div>
+      <div class="category">
+        <p><b>IA</b></p>
+        <p>Filosofia</p>
+      </div>
+      <div class="parallax-img">
+        <img src="./agi.jpg" alt="Imagen parallax">
+      </div>
+      <p class="phrase">‌La llegada de la Inteligencia Artificial General es como asomarse al umbral de lo desconocido, un salto que despierta la admiración y el respeto por su potencial transformador</p>
+
+      <p class="para">A lo largo de las décadas, hemos sido testigos de avances significativos en el campo de la inteligencia artificial, desde sistemas especializados capaces de jugar al ajedrez o reconocer patrones en grandes conjuntos de datos hasta asistentes virtuales que han revolucionado la forma en que interactuamos con la tecnología. Sin embargo, la consecución de una IA general, que pueda entender y abordar una amplia gama de tareas de manera autónoma, ha sido un desafío más complejo.</p>
+
+      <p class="para">En la actualidad, diversos desarrollos prometedores indican que podríamos estar acercándonos a la materialización de esta visión futurista. Los modelos de lenguaje como GPT-3 han demostrado una capacidad impresionante para comprender y generar texto de manera contextual, superando las limitaciones de sus predecesores. Además, la convergencia de la investigación en aprendizaje profundo, el procesamiento del lenguaje natural y la visión por computadora está llevando a sistemas más integrados y versátiles.</p>
+
+      <p class="para">No obstante, persisten desafíos cruciales. La comprensión profunda del contexto, la empatía y la capacidad de razonamiento abstracto siguen siendo áreas en las que los modelos actuales tienen limitaciones evidentes. Además, la cuestión ética y la preocupación por el control de la IA plantean interrogantes importantes sobre cómo gestionar y dirigir el desarrollo de una inteligencia artificial general.</p>
+
+      <p class="para">A medida que la investigación avanza, la pregunta sobre la proximidad de la IA general se convierte en un debate fascinante y complejo. Algunos optimistas vislumbran un futuro cercano en el que la IA pueda abordar problemas complejos y contribuir significativamente al progreso humano. Otros, más cautelosos, advierten sobre los riesgos potenciales y abogan por un enfoque ético y responsable en la creación de esta tecnología.</p>
+
+      <p class="para">En última instancia, la respuesta a la pregunta "¿La IA General está cerca?" sigue siendo incierta, pero lo que está claro es que la humanidad está en un punto crucial de su viaje hacia la creación de una inteligencia artificial que pueda rivalizar con la versatilidad cognitiva humana. Este camino nos lleva a explorar no solo los límites de la tecnología, sino también los límites de nuestra comprensión y responsabilidad ética.</p>
+
+
+
+    </main>
+    
+    <script>
+      document.addEventListener('scroll', function() {
+        var scrollPosition = window.scrollY;
+        var parallaxImg = document.querySelector('.parallax-img img');
+        parallaxImg.style.transform = 'translate(-50%, calc(-50% + ' + scrollPosition * 0.2 + 'px))';
+      });
+
+    </script>
+
+  </body>
+</html>

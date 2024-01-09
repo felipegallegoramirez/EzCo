@@ -64,6 +64,7 @@ h2{
     font-size: 40px;
     color: var(--black);
 }
+
 .main_aboutus>div{
 border-radius: 20px;
 margin: 60px;
@@ -152,3 +153,46 @@ color: var(--gray);
     margin: 20px 20px 60px 20px;
 }
 
+@media screen and (max-width: 1000px) {
+.main_aboutus>div,.calification,.main_description{
+    display: block;
+}
+.main_aboutus>div>div,.calification>div,.main_description>div{
+    width: 100%;
+}
+.calification{
+    margin: 60px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+    .main_description{
+        padding: 20px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .main_aboutus>div>div>h3{
+        font-size: 25px;
+    }
+    .calification{
+        margin: 0px;
+    }
+    .calification>div{
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .main_aboutus>div{
+        margin: 0px;
+        padding: 20px;
+    }
+    .main_aboutus>div>div{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    }
